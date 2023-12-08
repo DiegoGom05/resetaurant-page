@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+#content {
+    background-color: red;
+    padding: 16px;
+    height: 100vh;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    position: sticky;
+    background-color: aliceblue;
+    font-size: 48px;
+    border: solid  5px black;
+    overflow: hidden;
+}
+
+li {
+    margin:  10px 0;
+    padding: 8px;
+    border: solid  3px black;
+}
+
+.active{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+ 
